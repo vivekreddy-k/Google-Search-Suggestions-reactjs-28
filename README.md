@@ -1,4 +1,5 @@
-In this assignment let's build a **Google Search Suggestions** by applying the concepts we have learned till now.
+## LIVE DEMO :- <a href="https://hardcore-einstein-d98bd1.netlify.app/">Google Search Suggestions</a>
+In this assignment let's build a **Google Search Suggestions**
 
 ### Refer to images below:
 
@@ -27,37 +28,6 @@ In this assignment let's build a **Google Search Suggestions** by applying the c
 - Start up the app using `npm start`
 </details>
 
-### Project Completion Instructions
-
-<details>
-<summary>Click to view the Functionality to be added</summary>
-
-#### Add Functionality
-
-The app must have the following functionalities
-
-- Initially all the suggestions in the suggestionsList should be displayed
-- When a value is provided in the search input then display the suggestions which includes the search input irrespective of case.
-- When the arrow of a suggestion is clicked then the value inside the search input should be updated with the respective suggestion clicked
-
-- The `GoogleSuggestions` component receives the `suggestionsList` as a prop. It consists of a list of suggestion objects with the following properties in each suggestions object
-
-  | Key         | Data Type |
-  | ----------- | --------- |
-  | id          | Number    |
-  | suggestion  | String    |
-
-</details>
-
-<details>
-<summary>Click to view the Implementation Files</summary>
-
-- Your task is to complete the implementation of
-  - `src/components/GoogleSuggestions/index.js`
-  - `src/components/GoogleSuggestions/index.css`
-  - `src/components/SuggestionItem/index.js`
-  - `src/components/SuggestionItem/index.css`
-</details>
 
 <details>
 <summary>Click to view the Components Structure</summary>
@@ -129,15 +99,4 @@ The app must have the following functionalities
 <br/>
 </details>
 
-#### Font-families
 
-- Roboto
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being
->   imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a
->   look at the Cheat Sheets.
